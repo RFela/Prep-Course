@@ -1,0 +1,17 @@
+DEFINICIONES JS
+
+- VARIABLE: es una forma de almacenar el valor de algo para luego usarlo más tarde.Para crarla, en JS utilizamos (principalmente) la keyword VAR seguida del nombre de la variable que en principio puede ser cualquier nombre, salvo algunas palabras que js tiene reservadas (por ej: no podemos nombrar a la variable, variable)
+Con el nombre que le ponemos, podemos invocarla más adelante cuando la necesitemos.
+Ademas de declarar una variable, podemos asignarle a esta un valor a traves del signo =, de modo que cuando la invoquemos nos arroje la asignacion que le hicimos con el operador mencionado.
+Ej VAR nombre = 'Rodrigo'
+nombre
+Rodrigo
+
+- STRING: Son bloques de texto. Siempre se definen entre comillas, simples o dobles. Cualquier texto, letras, numeros entre comillas es un string o cadena. Ejemplo:
+var nombreDePerro = 'darko'
+
+- FUNCIONES (argumentos, return): Muy importantes en lenguaje de programación y JS. Son tipos particulares de OBJETOS, llamados callable objects (objetos invocables).
+Tienen las mismas propiedades que cualquier objeto. Cuando tenemos un conjunto de variables, necesitamos de las funciones para hacer algo con ellas. Mas precisamente de los ARGUMENTOS. 
+En la anatomiade la funcion, el argumento va entre los paréntesis de esta, y que luego lo podemos invocar en el codigo que escribamos entre las llaves. Podemos agregar más de un argumento , separandolos entre comas (,).
+Respecto la variante RETURN, es para cuando queremos devolver algo, por ejemplo, la suma de dos números. La declaracion return, es la unica forma para hacer que los datos escapen de una funcion.
+A través de RETURN, la funcion detiene inmediatamente lo que está haciendo, y devuelve lo especificado.
